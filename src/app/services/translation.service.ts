@@ -173,6 +173,12 @@ const EN: Translations = {
     viewCode: 'View Code',
     items: [
       {
+        title: 'WattWise',
+        description:
+          'AI-powered web platform for energy compliance in French real estate. Enables owners and property managers to audit buildings, calculate financial aid (MaPrimeRénov, CEE, Éco-PTZ) and find certified RGE contractors — in compliance with Loi Climat et Résilience.',
+        tech: ['Spring Boot', 'Python', 'Llama 3.2', 'Angular'],
+      },
+      {
         title: 'Ben Amor Collection',
         description:
           'An elegant online boutique for clothing and accessories with integrated payment processing.',
@@ -334,6 +340,12 @@ const FR: Translations = {
     sectionSubtitle: 'Ce que j\'ai réalisé',
     viewCode: 'Voir le Code',
     items: [
+      {
+        title: 'WattWise',
+        description:
+          'Plateforme web IA de conformité énergétique pour l\'immobilier français. Permet aux propriétaires et syndics d\'auditer leurs bâtiments, calculer leurs aides financières (MaPrimeRénov, CEE, Éco-PTZ) et trouver des artisans RGE certifiés — en conformité avec la Loi Climat et Résilience.',
+        tech: ['Spring Boot', 'Python', 'Llama 3.2', 'Angular'],
+      },
       {
         title: 'Ben Amor Collection',
         description:
