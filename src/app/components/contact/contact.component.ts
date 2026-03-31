@@ -2,6 +2,11 @@ import { Component, inject, signal } from '@angular/core';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { ReactiveFormsModule, FormBuilder, Validators } from '@angular/forms';
 import { TranslationService } from '../../services/translation.service';
+import emailjs from '@emailjs/browser';
+
+const EMAILJS_SERVICE_ID = 'service_xrku3t2';
+const EMAILJS_TEMPLATE_ID = 'template_eot0mit';
+const EMAILJS_PUBLIC_KEY = '8GzOsp6CA8aOvstCA';
 
 @Component({
   selector: 'app-contact',
@@ -29,19 +34,33 @@ export class ContactComponent {
   get emailControl() { return this.contactForm.get('email')!; }
   get messageControl() { return this.contactForm.get('message')!; }
 
+  isError = signal(false);
+
   onSubmit(): void {
     if (this.contactForm.invalid) {
       this.contactForm.markAllAsTouched();
       return;
     }
     this.isSending.set(true);
-    // Simulate sending (replace with real API call)
-    setTimeout(() => {
+    this.isError.set(false);
+
+    const { name, email, message } = this.contactForm.value;
+
+    emailjs.send(
+      EMAILJS_SERVICE_ID,
+      EMAILJS_TEMPLATE_ID,
+      { from_name: name, reply_to: email, message },
+      EMAILJS_PUBLIC_KEY
+    ).then(() => {
       this.isSending.set(false);
       this.isSuccess.set(true);
       this.contactForm.reset();
       setTimeout(() => this.isSuccess.set(false), 6000);
-    }, 1500);
+    }).catch(() => {
+      this.isSending.set(false);
+      this.isError.set(true);
+      setTimeout(() => this.isError.set(false), 6000);
+    });
   }
 
   contactInfo = [
