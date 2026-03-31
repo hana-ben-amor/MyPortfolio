@@ -24,25 +24,25 @@ export class SkillsComponent {
       key: 'devops',
       icon: '⚙️',
       color: 'from-orange-500/20 to-red-500/20 border-orange-500/30',
-      items: ['Docker', 'Kubernetes', 'Jenkins', 'GitLab', 'Grafana', 'Prometheus', 'Kafka'],
+      items: ['Docker', 'Kubernetes', 'Jenkins', 'GitLab CI/CD', 'GitHub Actions', 'Grafana', 'Prometheus', 'Microservices', 'Scrum/Agile', 'Git'],
     },
     {
       key: 'cloud',
       icon: '☁️',
       color: 'from-blue-500/20 to-cyan-500/20 border-blue-500/30',
-      items: ['AWS', 'Packer', 'Terraform'],
+      items: ['AWS', 'Terraform', 'Packer', 'EC2', 'S3', 'AMI', 'Llama API', 'ADEME API'],
     },
     {
       key: 'languages',
       icon: '💻',
       color: 'from-purple-500/20 to-violet-500/20 border-purple-500/30',
-      items: ['Java', 'Python', 'JavaScript', 'TypeScript', 'SQL', 'NoSQL', 'C++', 'C'],
+      items: ['Spring Boot', 'Java', 'Node.js', 'Python', '.NET', 'REST API', 'Spring Security', 'JWT', 'WebFlux', 'Kafka', 'C++', 'C'],
     },
     {
       key: 'web',
       icon: '🌐',
       color: 'from-green-500/20 to-teal-500/20 border-green-500/30',
-      items: ['Spring Boot', 'Angular', 'React', 'Next.js', 'Node.js', 'HTML', 'CSS'],
+      items: ['Angular 19', 'React', 'Next.js', 'TypeScript', 'JavaScript', 'TailwindCSS', 'HTML', 'CSS', 'PostgreSQL', 'MySQL', 'MongoDB', 'Elasticsearch'],
     },
   ];
 }

@@ -99,9 +99,9 @@ const EN: Translations = {
   },
   hero: {
     greeting: "Hi, I'm",
-    title: 'Software Engineer',
+    title: 'Full Stack Engineer',
     subtitle:
-      'Passionate about building scalable web applications and cloud solutions. Based in Monastir, Tunisia.',
+      'Full Stack Engineer with experience shipping AI-powered platforms, cloud-native apps, and DevOps pipelines across France, Canada, and Tunisia. AWS Certified Solutions Architect.',
     downloadCv: 'Download CV',
     contactMe: 'Contact Me',
   },
@@ -109,11 +109,11 @@ const EN: Translations = {
     sectionTitle: 'About Me',
     sectionSubtitle: 'Get to know me better',
     bio1:
-      "I'm Hana Ben Amor, a Software Engineering graduate from the Higher Institute of Applied Sciences and Technology of Sousse, Tunisia. I'm passionate about crafting robust, scalable applications that solve real-world problems.",
+      "I'm Hana Ben Amor, a Full Stack Engineer with 1 year of experience shipping AI-powered platforms, cloud-native applications, and DevOps pipelines across France, Canada, and Tunisia.",
     bio2:
-      'With hands-on experience in Full Stack development, DevOps, and Cloud engineering, I have worked with leading companies including EDF in France and VERMEG in Tunisia. I thrive in collaborative environments and embrace modern engineering practices.',
+      'I contributed to production systems at EDF serving 5,000+ internal users and am currently delivering remote freelance projects for an international Canadian client. AWS Certified Solutions Architect.',
     bio3:
-      'Currently working remotely as a Full Stack Engineer for Mode Elite Import (Canada, Quebec), I continue to grow my expertise in the latest technologies and cloud-native architectures.',
+      'I thrive in international, fast-paced environments and am actively seeking opportunities in Full Stack, AI, or Cloud engineering.',
     education: 'Education',
     degree1Title: 'Engineering Degree in Software Engineering',
     degree1School: 'Higher Institute of Applied Sciences and Technology of Sousse',
@@ -130,40 +130,40 @@ const EN: Translations = {
     present: 'Present',
     items: [
       {
-        role: 'Full Stack Engineer',
+        role: 'Full Stack Engineer (Freelance)',
         company: 'Mode Elite Import',
         period: '2025 – Present',
         location: 'Remote · Quebec, Canada',
         description:
-          'Working remotely as a Full Stack Engineer, developing and maintaining modern web applications for a Canadian client.',
-        tech: [],
+          'Shipped 10+ full-cycle features for a Canadian e-commerce platform, reducing manual processing time by ~30% through automated backend workflows. Engineered RESTful APIs consumed by a reactive Angular frontend, cutting average page load time by ~25%. Collaborated asynchronously with a distributed team across 2 time zones using Agile sprints.',
+        tech: ['Angular', 'Spring Boot', 'PostgreSQL', 'REST API', 'Git'],
       },
       {
-        role: 'Full Stack Engineer',
+        role: 'Full Stack Engineer (Internship)',
         company: 'EDF – Électricité de France',
         period: 'May 2025 – Oct 2025',
         location: 'Lyon, France',
         description:
-          'Participated in development of the TRAIL application, an AI monitoring tool used to track application usage at EDF and manage user satisfaction campaigns.',
+          'Contributed to TRAIL, an AI monitoring tool tracking usage for 5,000+ internal EDF users. Architected and maintained 15+ REST API endpoints. Established an observability stack (Grafana, Prometheus, Elasticsearch) reducing incident detection time by 40%. Containerized 8 microservices on AWS with Docker and Kubernetes, cutting deployment time by 50%.',
         tech: ['Spring Boot', 'Angular', 'Jenkins', 'GitLab', 'Nexus', 'PostgreSQL', 'Elasticsearch', 'JUnit', 'Docker', 'Grafana', 'Prometheus', 'AWS', 'Kubernetes'],
       },
       {
-        role: 'DevOps / Cloud Engineer',
+        role: 'DevOps / Cloud Engineer (Internship)',
         company: 'VERMEG',
-        period: 'July 2024 – Sept 2024',
+        period: 'Jul 2024 – Sep 2024',
         location: 'Tunis, Tunisia',
         description:
-          "Worked on Mola's VM Solutions project to automate provisioning and deployment of secure virtual machines.",
-        tech: ['Packer', 'AWS', 'Jenkins', 'Inspec', 'Git', 'OVF/OVA', 'QEMU', 'VirtualBox', 'VMware'],
+          'Automated provisioning of 3 VM types (Linux, Windows, RHEL) reducing manual setup from 4 hours to under 15 minutes. Implemented cloud-ready infrastructure on AWS via Terraform across 3 target stages. Established CI/CD pipelines with Inspec compliance checks achieving 100% policy-compliant image deployments.',
+        tech: ['Packer', 'AWS', 'Terraform', 'Jenkins', 'Inspec', 'Git', 'OVF/OVA', 'QEMU', 'VirtualBox', 'VMware'],
       },
       {
-        role: 'Full Stack Engineer',
+        role: 'Full Stack Engineer (Internship)',
         company: 'MEDIANET',
-        period: 'June 2023 – Aug 2023',
+        period: 'Jun 2023 – Aug 2023',
         location: 'Tunis, Tunisia',
         description:
-          'Developed BookSphere web application — an online bookstore platform with integrated blog space.',
-        tech: ['Spring Boot', 'Spring Security', 'AngularJS', 'Swagger', 'GitLab CI/CD', 'Scrum'],
+          'Launched BookSphere, a full-featured e-commerce and blog platform serving 500+ test users within a 3-month Scrum cycle. Secured the application with Spring Security implementing role-based access control across 4 distinct user roles.',
+        tech: ['Spring Boot', 'Spring Security', 'AngularJS', 'Swagger', 'GitLab CI/CD'],
       },
     ],
   },
@@ -173,57 +173,32 @@ const EN: Translations = {
     viewCode: 'View Code',
     items: [
       {
-        title: 'WattWise',
+        title: 'Wattwise — AI Energy Compliance Platform',
         description:
-          'AI-powered web platform for energy compliance in French real estate. Enables owners and property managers to audit buildings, calculate financial aid (MaPrimeRénov, CEE, Éco-PTZ) and find certified RGE contractors — in compliance with Loi Climat et Résilience.',
-        tech: ['Spring Boot', 'Python', 'Llama 3.2', 'Angular'],
+          'End-to-end AI platform helping French landlords comply with Loi Climat et Résilience, targeting 5M+ affected properties. Integrated Llama API to generate personalised renovation plans with cost estimates in under 10 seconds. Automated financial aid calculation (MaPrimeRénov, CEE, Éco-PTZ) covering up to €70,000 per property. Indexed millions of DPE records from the national ADEME database for instant compliance checks.',
+        tech: ['Spring Boot', 'Angular 19', 'PostgreSQL', 'TailwindCSS v4', 'Llama API', 'JWT', 'ADEME API', 'Python'],
+        date: 'November 2025',
       },
       {
-        title: 'Ben Amor Collection',
+        title: 'FinFlow — Smart Financial Tracking Platform',
         description:
-          'An elegant online boutique for clothing and accessories with integrated payment processing.',
-        tech: ['React', 'Node.js', 'MongoDB', 'Stripe API'],
-      },
-      {
-        title: 'FinFlow',
-        description:
-          'A smart financial tracking and management platform for personal and business finances.',
+          'Financial tracking platform with real-time expense categorisation across 10+ categories and automated monthly budget forecasting. Reduced manual data entry by 80% through smart transaction parsing and an interactive Angular dashboard with live chart updates.',
         tech: ['Angular', 'Spring Boot', 'MySQL'],
+        date: 'March 2026',
       },
       {
-        title: 'Renter App',
+        title: 'Renter App — Property Rental Platform',
         description:
-          'Web application inspired by Airbnb for property rentals with secure payment integration.',
+          'Airbnb-inspired platform supporting end-to-end listings, search, booking, and Stripe payment processing with a sub-2s checkout flow.',
         tech: ['.NET', 'MySQL', 'Stripe API', 'HTML/CSS/JS'],
         date: 'December 2024',
       },
       {
-        title: 'NovaUniversity',
+        title: 'NovaUniversity — University Management Platform',
         description:
-          'Full university management system from enrollment to diploma generation with AI-powered schedule generation.',
+          'University system covering 6 modules (enrollment, scheduling, grades, diploma generation) with AI-powered scheduling that cut conflicts by 90%.',
         tech: ['Spring Boot', 'Angular', 'Docker', 'MySQL', 'AI'],
         date: 'May 2024',
-      },
-      {
-        title: 'Inventory Management',
-        description:
-          'Modular inventory system based on microservices architecture with real-time monitoring.',
-        tech: ['Spring Boot', 'WebFlux', 'Kafka', 'MySQL', 'Docker', 'Eureka', 'Prometheus', 'Grafana'],
-        date: 'April 2024',
-      },
-      {
-        title: 'BookSphere',
-        description:
-          'E-commerce web application for selling books online with integrated blog space.',
-        tech: ['Spring Boot', 'Angular', 'MySQL', 'Spring Security'],
-        date: 'June 2023',
-      },
-      {
-        title: 'AmazonHer',
-        description:
-          'Clothing e-commerce platform inspired by Amazon, built with the MERN stack.',
-        tech: ['MongoDB', 'Express.js', 'React', 'Node.js'],
-        date: 'September 2022',
       },
     ],
   },
@@ -231,9 +206,9 @@ const EN: Translations = {
     sectionTitle: 'Skills',
     sectionSubtitle: 'My technical expertise',
     devops: 'DevOps',
-    cloud: 'Cloud',
-    languages: 'Programming Languages',
-    web: 'Web & Frameworks',
+    cloud: 'Cloud & IaC',
+    languages: 'Backend & Languages',
+    web: 'Frontend & Databases',
   },
   contact: {
     sectionTitle: 'Contact',
@@ -267,9 +242,9 @@ const FR: Translations = {
   },
   hero: {
     greeting: 'Bonjour, je suis',
-    title: 'Ingénieure Logiciel',
+    title: 'Ingénieure Full Stack',
     subtitle:
-      'Passionnée par la création d\'applications web scalables et de solutions cloud. Basée à Monastir, Tunisie.',
+      'Ingénieure Full Stack avec une expérience dans la livraison de plateformes IA, d\'applications cloud-native et de pipelines DevOps en France, au Canada et en Tunisie. AWS Certified Solutions Architect.',
     downloadCv: 'Télécharger CV',
     contactMe: 'Me Contacter',
   },
@@ -277,11 +252,11 @@ const FR: Translations = {
     sectionTitle: 'À Propos',
     sectionSubtitle: 'Apprenez à me connaître',
     bio1:
-      'Je suis Hana Ben Amor, diplômée en Génie Logiciel de l\'Institut Supérieur des Sciences Appliquées et de Technologie de Sousse, Tunisie. Je suis passionnée par la création d\'applications robustes et évolutives.',
+      'Je suis Hana Ben Amor, Ingénieure Full Stack avec 1 an d\'expérience dans la livraison de plateformes IA, d\'applications cloud-native et de pipelines DevOps en France, au Canada et en Tunisie.',
     bio2:
-      'Avec une expérience pratique en développement Full Stack, DevOps et Cloud engineering, j\'ai travaillé avec des entreprises de renom dont EDF en France et VERMEG en Tunisie.',
+      'J\'ai contribué aux systèmes de production d\'EDF au service de 5 000+ utilisateurs internes et livre actuellement des projets freelance à distance pour un client canadien international. AWS Certified Solutions Architect.',
     bio3:
-      'Actuellement en télétravail en tant qu\'Ingénieure Full Stack pour Mode Elite Import (Canada, Québec), je continue de développer mon expertise dans les dernières technologies.',
+      'Je m\'épanouis dans des environnements internationaux dynamiques et recherche activement des opportunités en ingénierie Full Stack, IA ou Cloud.',
     education: 'Formation',
     degree1Title: 'Diplôme d\'Ingénieur en Génie Logiciel',
     degree1School: 'Institut Supérieur des Sciences Appliquées et de Technologie de Sousse',
@@ -298,40 +273,40 @@ const FR: Translations = {
     present: 'Présent',
     items: [
       {
-        role: 'Ingénieure Full Stack',
+        role: 'Ingénieure Full Stack (Freelance)',
         company: 'Mode Elite Import',
         period: '2025 – Présent',
         location: 'Télétravail · Québec, Canada',
         description:
-          'Travail en télétravail en tant qu\'Ingénieure Full Stack, développement et maintenance d\'applications web modernes pour un client canadien.',
-        tech: [],
+          'Livraison de 10+ fonctionnalités complètes pour une plateforme e-commerce canadienne, réduisant le traitement manuel de ~30% grâce à des workflows automatisés. APIs RESTful consommées par un frontend Angular réactif, réduisant le temps de chargement moyen de ~25%. Collaboration asynchrone avec une équipe distribuée sur 2 fuseaux horaires via des sprints Agile.',
+        tech: ['Angular', 'Spring Boot', 'PostgreSQL', 'REST API', 'Git'],
       },
       {
-        role: 'Ingénieure Full Stack',
+        role: 'Ingénieure Full Stack (Stage)',
         company: 'EDF – Électricité de France',
         period: 'Mai 2025 – Oct 2025',
         location: 'Lyon, France',
         description:
-          'Participation au développement de l\'application TRAIL, un outil de monitoring IA pour suivre l\'utilisation des applications à EDF et gérer les campagnes de satisfaction utilisateur.',
+          'Contribution à TRAIL, un outil de monitoring IA pour 5 000+ utilisateurs EDF. Conception et maintenance de 15+ endpoints REST API. Mise en place d\'un stack d\'observabilité (Grafana, Prometheus, Elasticsearch) réduisant le temps de détection des incidents de 40%. Conteneurisation de 8 microservices sur AWS réduisant le temps de déploiement de 50%.',
         tech: ['Spring Boot', 'Angular', 'Jenkins', 'GitLab', 'Nexus', 'PostgreSQL', 'Elasticsearch', 'JUnit', 'Docker', 'Grafana', 'Prometheus', 'AWS', 'Kubernetes'],
       },
       {
-        role: 'Ingénieure DevOps / Cloud',
+        role: 'Ingénieure DevOps / Cloud (Stage)',
         company: 'VERMEG',
         period: 'Juil. 2024 – Sept. 2024',
         location: 'Tunis, Tunisie',
         description:
-          'Travail sur le projet Mola\'s VM Solutions pour automatiser le provisionnement et le déploiement de machines virtuelles sécurisées.',
-        tech: ['Packer', 'AWS', 'Jenkins', 'Inspec', 'Git', 'OVF/OVA', 'QEMU', 'VirtualBox', 'VMware'],
+          'Automatisation du provisionnement de 3 types de VM réduisant la configuration manuelle de 4h à moins de 15 min. Infrastructure cloud sur AWS via Terraform sur 3 environnements cibles. Pipelines CI/CD avec contrôles de conformité Inspec — 100% de déploiements conformes.',
+        tech: ['Packer', 'AWS', 'Terraform', 'Jenkins', 'Inspec', 'Git', 'OVF/OVA', 'QEMU', 'VirtualBox', 'VMware'],
       },
       {
-        role: 'Ingénieure Full Stack',
+        role: 'Ingénieure Full Stack (Stage)',
         company: 'MEDIANET',
         period: 'Juin 2023 – Août 2023',
         location: 'Tunis, Tunisie',
         description:
-          'Développement de l\'application web BookSphere — une librairie en ligne avec espace blog intégré.',
-        tech: ['Spring Boot', 'Spring Security', 'AngularJS', 'Swagger', 'GitLab CI/CD', 'Scrum'],
+          'Lancement de BookSphere, une plateforme e-commerce complète avec blog pour 500+ utilisateurs en 3 mois (cycle Scrum). Sécurisation avec Spring Security et contrôle d\'accès basé sur les rôles pour 4 types d\'utilisateurs.',
+        tech: ['Spring Boot', 'Spring Security', 'AngularJS', 'Swagger', 'GitLab CI/CD'],
       },
     ],
   },
@@ -341,57 +316,32 @@ const FR: Translations = {
     viewCode: 'Voir le Code',
     items: [
       {
-        title: 'WattWise',
+        title: 'Wattwise — Plateforme IA de Conformité Énergétique',
         description:
-          'Plateforme web IA de conformité énergétique pour l\'immobilier français. Permet aux propriétaires et syndics d\'auditer leurs bâtiments, calculer leurs aides financières (MaPrimeRénov, CEE, Éco-PTZ) et trouver des artisans RGE certifiés — en conformité avec la Loi Climat et Résilience.',
-        tech: ['Spring Boot', 'Python', 'Llama 3.2', 'Angular'],
+          'Plateforme IA aidant les propriétaires français à se conformer à la Loi Climat et Résilience, ciblant 5M+ de propriétés. Llama API génère des plans de rénovation personnalisés en moins de 10 secondes. Calcul automatisé des aides financières (MaPrimeRénov, CEE, Éco-PTZ) jusqu\'à 70 000€ par propriété. Indexation de millions de DPE depuis la base ADEME pour des vérifications instantanées.',
+        tech: ['Spring Boot', 'Angular 19', 'PostgreSQL', 'TailwindCSS v4', 'Llama API', 'JWT', 'ADEME API', 'Python'],
+        date: 'Novembre 2025',
       },
       {
-        title: 'Ben Amor Collection',
+        title: 'FinFlow — Plateforme de Suivi Financier',
         description:
-          'Une boutique en ligne élégante pour vêtements et accessoires avec paiement intégré.',
-        tech: ['React', 'Node.js', 'MongoDB', 'Stripe API'],
-      },
-      {
-        title: 'FinFlow',
-        description:
-          'Une plateforme intelligente de suivi et de gestion financière pour particuliers et entreprises.',
+          'Plateforme de suivi financier avec catégorisation des dépenses en temps réel sur 10+ catégories et prévisions budgétaires mensuelles automatisées. Réduction de la saisie manuelle de 80% grâce au parsing intelligent des transactions.',
         tech: ['Angular', 'Spring Boot', 'MySQL'],
+        date: 'Mars 2026',
       },
       {
-        title: 'Renter App',
+        title: 'Renter App — Plateforme de Location Immobilière',
         description:
-          'Application web inspirée d\'Airbnb pour la location de propriétés avec paiement sécurisé.',
+          'Plateforme inspirée d\'Airbnb supportant annonces, recherche, réservation et paiement Stripe avec un checkout en moins de 2 secondes.',
         tech: ['.NET', 'MySQL', 'Stripe API', 'HTML/CSS/JS'],
         date: 'Décembre 2024',
       },
       {
-        title: 'NovaUniversity',
+        title: 'NovaUniversity — Plateforme de Gestion Universitaire',
         description:
-          'Système de gestion universitaire complet de l\'inscription à la génération de diplômes avec IA.',
+          'Système universitaire couvrant 6 modules (inscription, planification, notes, génération de diplômes) avec une planification IA réduisant les conflits de 90%.',
         tech: ['Spring Boot', 'Angular', 'Docker', 'MySQL', 'IA'],
         date: 'Mai 2024',
-      },
-      {
-        title: 'Gestion des Stocks',
-        description:
-          'Système de gestion des stocks modulaire basé sur une architecture microservices avec monitoring temps réel.',
-        tech: ['Spring Boot', 'WebFlux', 'Kafka', 'MySQL', 'Docker', 'Eureka', 'Prometheus', 'Grafana'],
-        date: 'Avril 2024',
-      },
-      {
-        title: 'BookSphere',
-        description:
-          'Application web e-commerce pour la vente de livres en ligne avec espace blog intégré.',
-        tech: ['Spring Boot', 'Angular', 'MySQL', 'Spring Security'],
-        date: 'Juin 2023',
-      },
-      {
-        title: 'AmazonHer',
-        description:
-          'Plateforme e-commerce de vêtements inspirée d\'Amazon, développée avec la stack MERN.',
-        tech: ['MongoDB', 'Express.js', 'React', 'Node.js'],
-        date: 'Septembre 2022',
       },
     ],
   },
@@ -399,9 +349,9 @@ const FR: Translations = {
     sectionTitle: 'Compétences',
     sectionSubtitle: 'Mon expertise technique',
     devops: 'DevOps',
-    cloud: 'Cloud',
-    languages: 'Langages de Programmation',
-    web: 'Web & Frameworks',
+    cloud: 'Cloud & IaC',
+    languages: 'Backend & Langages',
+    web: 'Frontend & Bases de Données',
   },
   contact: {
     sectionTitle: 'Contact',

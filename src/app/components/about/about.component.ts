@@ -30,5 +30,10 @@ export class AboutComponent {
       period: '2023 – 2027',
       icon: '🌩️',
     },
+    {
+      name: 'CCNA v2',
+      period: '2023',
+      icon: '🌐',
+    },
   ];
 }
