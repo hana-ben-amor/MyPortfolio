@@ -13,9 +13,8 @@ export class AboutComponent {
   t = toSignal(this.translationService.translations$);
 
   languages = [
-    { name: 'Arabic', level: 'C2', flag: '🇹🇳', percent: 100 },
+    { name: 'English', level: 'C1', flag: '🇬🇧', percent: 88 },
     { name: 'French', level: 'C1', flag: '🇫🇷', percent: 88 },
-    { name: 'English', level: 'B2', flag: '🇬🇧', percent: 72 },
     { name: 'German', level: 'A2', flag: '🇩🇪', percent: 28 },
   ];
 

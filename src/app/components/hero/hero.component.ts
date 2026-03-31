@@ -22,8 +22,8 @@ export class HeroComponent {
   downloadCv(): void {
     // CV download placeholder – replace href with actual CV file path
     const link = document.createElement('a');
-    link.href = '/assets/cv-hana-ben-amor.pdf';
-    link.download = 'Hana-Ben-Amor-CV.pdf';
+    link.href = '/assets/cv-sarra-safer.pdf';
+    link.download = 'Sarra-Safer-CV.pdf';
     link.click();
   }
 }

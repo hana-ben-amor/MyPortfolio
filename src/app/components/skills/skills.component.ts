@@ -22,13 +22,13 @@ export class SkillsComponent {
   skillGroups: SkillGroup[] = [
     {
       key: 'devops',
-      icon: '⚙️',
+      icon: '☁️',
       color: 'from-orange-500/20 to-red-500/20 border-orange-500/30',
       items: ['Docker', 'Kubernetes', 'Jenkins', 'GitLab CI/CD', 'GitHub Actions', 'Grafana', 'Prometheus', 'Microservices', 'Scrum/Agile', 'Git'],
     },
     {
       key: 'cloud',
-      icon: '☁️',
+      icon: '🧠',
       color: 'from-blue-500/20 to-cyan-500/20 border-blue-500/30',
       items: ['AWS', 'Terraform', 'Packer', 'EC2', 'S3', 'AMI', 'Llama API', 'ADEME API'],
     },

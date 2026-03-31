@@ -45,30 +45,10 @@ export class ContactComponent {
   }
 
   contactInfo = [
-    {
-      icon: 'email',
-      value: 'hanaamor5@gmail.com',
-      href: 'mailto:hanaamor5@gmail.com',
-    },
-    {
-      icon: 'phone',
-      value: '+(216) 99963900',
-      href: 'tel:+21699963900',
-    },
-    {
-      icon: 'location',
-      value: 'Monastir, Tunisia',
-      href: null,
-    },
-    {
-      icon: 'linkedin',
-      value: 'linkedin.com/in/hana-ben-amor',
-      href: 'https://www.linkedin.com/in/hana-ben-amor-b738771ab/',
-    },
-    {
-      icon: 'github',
-      value: 'github.com/hana-ben-amor',
-      href: 'https://github.com/hana-ben-amor',
-    },
+    { icon: 'email', value: 'sarasafer59@gmail.com', href: 'mailto:sarasafer59@gmail.com' },
+    { icon: 'phone', value: '+49 155 10055903', href: 'tel:+4915510055903' },
+    { icon: 'location', value: 'Mannheim, Germany', href: null },
+    { icon: 'linkedin', value: 'linkedin.com/in/sarrasafer', href: 'https://www.linkedin.com/in/sarrasafer' },
+    { icon: 'github', value: 'github.com/sarasafer59', href: 'https://github.com/sarasafer59' },
   ];
 }

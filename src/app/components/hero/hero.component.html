@@ -8,15 +8,15 @@
     <div class="orb orb-2"></div>
     <div class="orb orb-3"></div>
     <!-- Grid pattern overlay -->
-    <div class="absolute inset-0 bg-[linear-gradient(rgba(139,92,246,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(139,92,246,0.03)_1px,transparent_1px)] bg-[size:60px_60px]"></div>
+    <div class="absolute inset-0 bg-[linear-gradient(rgba(236,72,153,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(236,72,153,0.03)_1px,transparent_1px)] bg-[size:60px_60px]"></div>
   </div>
 
   <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
     <!-- Avatar -->
     <div class="flex justify-center mb-8">
       <div class="relative">
-        <div class="w-32 h-32 rounded-full bg-gradient-to-br from-purple-500 via-violet-600 to-indigo-700 flex items-center justify-center shadow-2xl shadow-purple-500/30 ring-4 ring-purple-500/20">
-          <span class="text-5xl font-bold text-white">H</span>
+        <div class="w-32 h-32 rounded-full bg-gradient-to-br from-pink-500 via-pink-600 to-pink-700 flex items-center justify-center shadow-2xl shadow-pink-500/30 ring-4 ring-pink-500/20">
+          <span class="text-5xl font-bold text-white">S</span>
         </div>
         <div class="absolute -bottom-1 -right-1 w-7 h-7 bg-green-500 rounded-full border-2 border-gray-950 flex items-center justify-center">
           <div class="w-2 h-2 bg-green-300 rounded-full animate-ping"></div>
@@ -26,20 +26,20 @@
 
     <!-- Greeting -->
     @if (t(); as t) {
-      <p class="text-purple-400 text-lg font-medium mb-2 animate-fade-in">
+      <p class="text-pink-400 text-lg font-medium mb-2 animate-fade-in">
         {{ t.hero.greeting }}
       </p>
 
       <h1 class="text-5xl sm:text-6xl lg:text-7xl font-extrabold text-white mb-4 leading-tight">
-        Hana Ben Amor
+        Sarra Safer
       </h1>
 
       <div class="flex items-center justify-center gap-3 mb-6">
-        <div class="h-px w-12 bg-gradient-to-r from-transparent to-purple-500"></div>
-        <h2 class="text-2xl sm:text-3xl font-semibold bg-gradient-to-r from-purple-400 to-violet-400 bg-clip-text text-transparent">
+        <div class="h-px w-12 bg-gradient-to-r from-transparent to-pink-500"></div>
+        <h2 class="text-2xl sm:text-3xl font-semibold bg-gradient-to-r from-pink-400 to-pink-400 bg-clip-text text-transparent">
           {{ t.hero.title }}
         </h2>
-        <div class="h-px w-12 bg-gradient-to-l from-transparent to-purple-500"></div>
+        <div class="h-px w-12 bg-gradient-to-l from-transparent to-pink-500"></div>
       </div>
 
       <p class="text-gray-400 text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
@@ -52,7 +52,7 @@
 
         <button
           (click)="scrollTo('contact')"
-          class="px-8 py-3.5 border border-purple-500 text-purple-400 font-semibold rounded-full hover:bg-purple-500/10 hover:text-purple-300 hover:border-purple-400 transition-all duration-300 hover:-translate-y-0.5"
+          class="px-8 py-3.5 border border-pink-500 text-pink-400 font-semibold rounded-full hover:bg-pink-500/10 hover:text-pink-300 hover:border-pink-400 transition-all duration-300 hover:-translate-y-0.5"
         >
           {{ t.hero.contactMe }}
         </button>
@@ -62,7 +62,7 @@
     <!-- Scroll indicator -->
     <div class="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-bounce">
       <span class="text-gray-600 text-xs tracking-widest uppercase">Scroll</span>
-      <svg class="w-4 h-4 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg class="w-4 h-4 text-pink-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
       </svg>
     </div>

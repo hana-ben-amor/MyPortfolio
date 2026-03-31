@@ -29,11 +29,11 @@ body {
   background: #111827;
 }
 ::-webkit-scrollbar-thumb {
-  background: #7c3aed;
+  background: #be185d;
   border-radius: 3px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #8b5cf6;
+  background: #ec4899;
 }
 
 /* Section scroll offset for fixed navbar */
@@ -107,8 +107,8 @@ html.light .border-gray-800 {
 html.light .border-gray-900 {
   border-color: #e2e8f0 !important;
 }
-html.light [class*="border-purple-900"] {
-  border-color: #ddd6fe !important;
+html.light [class*="border-pink-900"] {
+  border-color: #fbcfe8 !important;
 }
 
 /* Cards / panels */
@@ -139,7 +139,7 @@ html.light textarea::placeholder {
 }
 html.light input:focus,
 html.light textarea:focus {
-  border-color: #8b5cf6 !important;
+  border-color: #ec4899 !important;
 }
 
 /* Mobile menu */
